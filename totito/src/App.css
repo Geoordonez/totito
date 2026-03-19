@@ -1,0 +1,55 @@
+.App-header {
+  background-color: #050505;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, sans-serif;
+}
+
+.title {
+  color: #fff;
+  text-shadow: 0 0 20px #ff00de;
+}
+
+
+.player-x {
+  color: #ff00de;
+  text-shadow: 0 0 15px #ff00de;
+}
+
+.player-o {
+  color: #00d2ff;
+  text-shadow: 0 0 15px #00d2ff;
+}
+
+.status-display {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.next-x { color:  #00d2ff; }
+.next-o { color: #ff00de ; }
+
+
+.board-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+  background: #1a1a1a;
+  border: 2px solid #333; 
+  font-size: 3rem;
+  font-weight: bold;
+  cursor: pointer;
+  margin: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s;
+}
+
